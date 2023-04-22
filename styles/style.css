@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito&display=swap');
+
+:root {
+	--background: #d5c6e0;
+	--morado: #7b2cbf;
+
+	--carlitos: 'Carlito', sans-serif;
+}
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: var(--background);
+	font-family: var(--carlitos);
+	font-size: 16px;
+	color: #fff;
+}
+
+
+.container {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100vw;
+	min-width: 320px;
+	max-width: 600px;
+}
+
+.header {
+	width: 60%;
+	margin-top: 1.5625rem;
+	margin-bottom: 1.5625rem;
+} 
+.header .header__img {
+	width: 100%;
+	border-radius: 50%;
+}
+
+.header .header__title {
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 1.875rem;
+
+	
+	font-family: var(--carlitos);
+	font-size: 2.375rem;
+	color: var(--morado);
+
+	margin-bottom: 14px;
+}
+
+.header .header__desc {
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 1.5rem;
+	font-size: 1.375rem;
+}
+
+.header__desc a {
+	color: var(--morado)
+}
+
+
+/** Meses **/
+
+.meses {
+	width: 90%;
+	background-color: #985dc5;
+	border-radius: 15px;
+}
+
+.mes-first {
+	margin-top: 20px;
+}
+
+
+.mes {
+	display: flex;
+
+	flex-direction: column;
+	align-items: center;
+
+	margin-bottom: 40px;
+}
+
+.mes .mes__img {
+	width: 80%;
+	border-radius: 10px;
+	margin: 1.25rem;
+}
+
+.mes .mes__title {
+	font-size: 2rem;
+}
+
+.mes .mes__frase {
+	font-size: 1.25rem;
+	margin-bottom: 0.75rem;
+}
+
+.mes ol {
+	width: 80%;
+	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	font-size: 18px;
+}
+
+.febrero .first-day {
+	grid-column-start: 2;
+}
+
+.marzo .first-day {
+	grid-column-start: 3;
+}
+
+.abril .first-day {
+	grid-column-start: 6;
+}
+
+.mayo .first-day {
+	grid-column-start: 1;
+}
+
+.junio .first-day {
+	grid-column-start: 4;
+}
+
+.julio .firt-day {
+	grid-column-start: 6;
+}
+
+.agosto .first-day {
+	grid-column-start: 2;
+}
+
+.septiembre .first-day {
+	grid-column-start: 6;
+}
+
+.octubre .first-day {
+	grid-column-start: 2;	
+}
+
+.noviembre .first-day {
+	grid-column-start: 3;
+}
+
+.diciembre .first-day {
+	grid-column-start: 5;
+}
+
+.first-day {
+	grid-column-start: 7;
+}
+
+.day-name {
+	background-color: rosybrown;
+}
+
+@media screen(min-width: 600px) {
+
+	
+}
